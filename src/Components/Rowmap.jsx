@@ -36,7 +36,7 @@ const Rowmap = ({ course, index }) => {
       <td className="  md:px-6 px-2 py-2">{index + 1}</td>
       <td className="  md:px-6 px-2 py-2">{course.name}</td>
       <td className="  md:px-6 px-2 py-2">{course.short_name}</td>
-      <td className="  md:px-6 px-2 py-2">{course.fee}</td>
+      <td className="  md:px-6 px-2 py-2">{course.fee} <span className=" ml-[2px]">SGD</span></td>
       <td className=" flex h-[80px] me-3 gap-3 justify-end items-center">
         <button
           onClick={() => handleBtn(id)}
